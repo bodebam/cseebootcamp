@@ -56,3 +56,17 @@ age_patient=25
 today_date="05/11/2018"
 weight_patient=90.8
 height_patient=180
+
+
+name = fill_name_patient.split(" ")[0]
+surname = fill_name_patient.split(" ")[1]
+
+date1 = int(today_date.split("/")[2])
+dob = date1-25
+bmi = weight_patient **2/height_patient
+
+
+
+
+
+
